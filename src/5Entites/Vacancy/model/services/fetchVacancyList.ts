@@ -11,7 +11,7 @@ export const fetchVacancyList = createAsyncThunk<TResponseVacancy, IQueriesToVac
         console.log(`job/vacancy/?${new URLSearchParams(queries)}`)
         try {
 
-            const response = await $api.get<TResponseVacancy>(`job/vacancy/?${new URLSearchParams(queries)}`);
+            const response = await $api.get<TResponseVacancy>(` job/vacancy/?${new URLSearchParams(queries)}`);
             return thunkAPI.fulfillWithValue(response.data)
         } catch (e) {
             console.log("Ошибка при получении вакансий")
