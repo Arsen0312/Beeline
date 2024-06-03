@@ -1,0 +1,46 @@
+.main {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .wrapper {
+  display: flex;
+}
+.main .wrapper .logo {
+  width: 44px;
+  height: 44px;
+  margin-right: 14px;
+}
+.main .wrapper .services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.main .boxForSearchAndLogin {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .boxForSearchAndLogin .btnSearch {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+.main .boxForSearchAndLogin .btnLogin {
+  border-radius: 8px;
+  border: none;
+  padding: 10px 20px;
+  color: black;
+  background: linear-gradient(51.04deg, #FF9900 1.52%, #FFCC33 97.06%);
+  font-weight: 510;
+  font-size: 1rem;
+  line-height: 144%;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=SecondHeader.module.css.map */

@@ -1,0 +1,15 @@
+@import "../../../../main.module.scss";
+
+.main {
+  background: $beeline-background-gradient;
+  border-radius: 8px;
+  color: black;
+  font-weight: 600;
+  border: none;
+  padding: 10px 24px;
+  cursor: pointer;
+}
+
+.none {
+  display: none;
+}

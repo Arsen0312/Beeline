@@ -1,0 +1,139 @@
+@import "../../../main.module.scss";
+
+.main {
+  width: 100%;
+  height: auto;
+  padding: 48px 0;
+
+  .nav {
+
+    .block1 {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid grey;
+      padding-bottom: 20px;
+
+      .title {
+        font-size: $font-size-middle-plus;
+        margin-bottom: 32px;
+      }
+
+      a {
+        &:hover {
+          color: $text-yellow-bright;
+        }
+      }
+
+      ul {
+
+        li {
+          margin-bottom: 20px;
+
+          * {
+            color: $text-grey;
+          }
+
+        }
+
+      }
+
+    }
+
+    .block2 {
+      width: 100%;
+      border-bottom: 0.5px solid grey;
+      display: flex;
+      align-items: center;
+
+      .boxForSocialMediaIcons {
+        width: 41%;
+        padding: 19px 0;
+        display: flex;
+        align-items: center;
+
+        .icons {
+          width: 32px;
+          height: 32px;
+          margin-right: 25px;
+        }
+      }
+
+      .boxForContactDetails {
+        width: auto;
+        display: flex;
+        align-items: center;
+
+        .emailContactDetails {
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+          margin-right: 16px;
+
+          .emailIcons {
+            width: 24px;
+            height: 18px;
+          }
+        }
+
+        .telePhoneContactDetails{
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+
+          .telePhoneIcons {
+            width: 15px;
+            height: 24px;
+          }
+        }
+
+        .forOthersOperators {
+          margin-left: 71px;
+
+        }
+      }
+    }
+
+    .block3 {
+      margin-top: 74px;
+
+
+      .sec1 {
+        display: flex;
+        align-items: center;
+
+        .beelineSvgLogoWithNameIcons {
+          width: 117px;
+          height: 36px;
+        }
+
+        .text {
+          margin-left: 73px;
+        }
+
+        .boxForIconsMarkets {
+          margin-left: 193px;
+
+          .playMarketIcons {
+            width: 24px;
+            height: 24px;
+            margin: 0 8px;
+
+          }
+
+          .safariIcons {
+            width: 22px;
+            height: 24px;
+            margin: 0 8px;
+
+
+          }
+
+        }
+
+      }
+
+
+    }
+  }
+}

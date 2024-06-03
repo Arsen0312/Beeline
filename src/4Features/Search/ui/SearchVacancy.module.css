@@ -1,0 +1,23 @@
+.main {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main .input {
+  width: 67%;
+  height: 58px;
+  border-radius: 8px;
+  border: 1px solid white;
+  padding: 5px 5px 5px 20px;
+  background: transparent;
+  outline-color: #FFCC33;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+.main .input::placeholder {
+  color: white;
+}
+
+/*# sourceMappingURL=SearchVacancy.module.css.map */

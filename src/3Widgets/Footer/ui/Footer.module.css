@@ -1,0 +1,98 @@
+.main {
+  width: 100%;
+  height: auto;
+  padding: 48px 0;
+}
+.main .nav .block1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px;
+}
+.main .nav .block1 .title {
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+.main .nav .block1 a:hover {
+  color: #FFCC33;
+}
+.main .nav .block1 ul li {
+  margin-bottom: 20px;
+}
+.main .nav .block1 ul li * {
+  color: rgb(144, 144, 144);
+}
+.main .nav .block2 {
+  width: 100%;
+  border-bottom: 0.5px solid grey;
+  display: flex;
+  align-items: center;
+}
+.main .nav .block2 .boxForSocialMediaIcons {
+  width: 41%;
+  padding: 19px 0;
+  display: flex;
+  align-items: center;
+}
+.main .nav .block2 .boxForSocialMediaIcons .icons {
+  width: 32px;
+  height: 32px;
+  margin-right: 25px;
+}
+.main .nav .block2 .boxForContactDetails {
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+.main .nav .block2 .boxForContactDetails .emailContactDetails {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 16px;
+}
+.main .nav .block2 .boxForContactDetails .emailContactDetails .emailIcons {
+  width: 24px;
+  height: 18px;
+}
+.main .nav .block2 .boxForContactDetails .telePhoneContactDetails {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.main .nav .block2 .boxForContactDetails .telePhoneContactDetails .telePhoneIcons {
+  width: 15px;
+  height: 24px;
+}
+.main .nav .block2 .boxForContactDetails .forOthersOperators {
+  margin-left: 71px;
+}
+.main .nav .block3 {
+  margin-top: 74px;
+}
+.main .nav .block3 .sec1 {
+  display: flex;
+  align-items: center;
+}
+.main .nav .block3 .sec1 .beelineSvgLogoWithNameIcons {
+  width: 117px;
+  height: 36px;
+}
+.main .nav .block3 .sec1 .text {
+  margin-left: 73px;
+}
+.main .nav .block3 .sec1 .boxForIconsMarkets {
+  margin-left: 193px;
+}
+.main .nav .block3 .sec1 .boxForIconsMarkets .playMarketIcons {
+  width: 24px;
+  height: 24px;
+  margin: 0 8px;
+}
+.main .nav .block3 .sec1 .boxForIconsMarkets .safariIcons {
+  width: 22px;
+  height: 24px;
+  margin: 0 8px;
+}
+
+/*# sourceMappingURL=Footer.module.css.map */

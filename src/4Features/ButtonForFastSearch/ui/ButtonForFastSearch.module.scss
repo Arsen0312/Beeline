@@ -1,0 +1,16 @@
+@import "../../../main.module";
+
+.button {
+  transition: color 500ms;
+  padding: 16px 10px;
+  border: 1px solid white;
+  border-radius: 8px;
+  font-size: $font-size-max;
+  color: $text-white;
+  background: transparent;
+  cursor: pointer;
+  &:hover {
+    transition: color 500ms;
+    color: $text-yellow-bright;
+  }
+}

@@ -1,0 +1,23 @@
+.noneVacancy {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.noneVacancy h4 {
+  margin-top: 16px;
+}
+
+.main {
+  width: 96%;
+  height: auto;
+  padding: 20px 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=VacancyList.module.css.map */

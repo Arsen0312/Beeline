@@ -1,0 +1,15 @@
+.main {
+  background: linear-gradient(51.04deg, #FF9900 1.52%, #FFCC33 97.06%);
+  border-radius: 8px;
+  color: black;
+  font-weight: 600;
+  border: none;
+  padding: 10px 24px;
+  cursor: pointer;
+}
+
+.none {
+  display: none;
+}
+
+/*# sourceMappingURL=ButtonBeelineStyle.module.css.map */

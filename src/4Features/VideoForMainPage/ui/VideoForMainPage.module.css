@@ -1,0 +1,19 @@
+.main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main h2 {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  font-size: 35px;
+}
+.main .video {
+  border-radius: 20px;
+  width: 60%;
+  height: 400px;
+  margin-bottom: 60px;
+}
+
+/*# sourceMappingURL=VideoForMainPage.module.css.map */

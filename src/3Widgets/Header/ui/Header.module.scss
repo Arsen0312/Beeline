@@ -1,0 +1,77 @@
+@import "./../../../main.module";
+
+.main {
+  width: 100%;
+  max-width: 1176px;
+  height: 47px;
+
+  .nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    .one {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+      gap: 40px;
+
+      a {
+        color: $text-grey;
+        font-size: $font-size-min;
+
+        &:hover {
+          color: $text-yellow;
+        }
+      }
+
+
+    }
+
+    .two {
+      height: 100%;
+      display: flex;
+      align-items: center;
+
+      button {
+        border: none;
+        background-color: transparent;
+        color: $text-grey;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: $font-size-min;
+
+        &:hover {
+          color: $text-yellow
+        }
+      }
+      .buttonActivate {
+        color: $text-white;
+
+      }
+
+      .language {
+        display: none;
+        color: $text-grey;
+
+      }
+
+      .ToPrivateIndividualsBusiness {
+        color: $text-grey;
+
+        .toPrivate {
+          color: $text-yellow
+        }
+
+
+
+      }
+
+
+    }
+  }
+
+}

@@ -1,0 +1,13 @@
+.main .wrapperForTitleAndButton {
+  width: 96%;
+  margin: 100px auto 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.main .wrapperForTitleAndButton .button {
+  display: none;
+}
+
+/*# sourceMappingURL=ComponentWithSearchAndVacancy.module.css.map */

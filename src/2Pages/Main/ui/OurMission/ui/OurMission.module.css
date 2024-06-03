@@ -1,0 +1,16 @@
+.main {
+  width: 100%;
+  min-height: 300px;
+}
+.main h2 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.main p {
+  margin: 0 auto;
+  width: 90%;
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=OurMission.module.css.map */

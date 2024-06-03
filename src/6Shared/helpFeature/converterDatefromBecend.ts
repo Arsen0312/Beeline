@@ -1,0 +1,1 @@
+export const converterDatefromBecend =  (str: string) => str.slice(0, 10).split("-").reverse().join().replaceAll(',', ".")

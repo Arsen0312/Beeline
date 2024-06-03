@@ -1,0 +1,56 @@
+.main {
+  width: 100%;
+  max-width: 1176px;
+  height: 47px;
+}
+.main .nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .nav .one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  gap: 40px;
+}
+.main .nav .one a {
+  color: rgb(144, 144, 144);
+  font-size: 14px;
+}
+.main .nav .one a:hover {
+  color: #FF9900;
+}
+.main .nav .two {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.main .nav .two button {
+  border: none;
+  background-color: transparent;
+  color: rgb(144, 144, 144);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+}
+.main .nav .two button:hover {
+  color: #FF9900;
+}
+.main .nav .two .buttonActivate {
+  color: white;
+}
+.main .nav .two .language {
+  display: none;
+  color: rgb(144, 144, 144);
+}
+.main .nav .two .ToPrivateIndividualsBusiness {
+  color: rgb(144, 144, 144);
+}
+.main .nav .two .ToPrivateIndividualsBusiness .toPrivate {
+  color: #FF9900;
+}
+
+/*# sourceMappingURL=Header.module.css.map */

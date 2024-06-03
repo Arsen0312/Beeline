@@ -1,0 +1,68 @@
+.main {
+  width: 100%;
+  min-height: 600px;
+  margin-top: 40px;
+  padding: 24px;
+}
+.main .block1 {
+  display: flex;
+  flex-direction: column;
+}
+.main .block1 .sec1 {
+  width: 100%;
+  padding-bottom: 20px;
+}
+.main .block1 .sec2 {
+  width: 100%;
+  display: flex;
+}
+.main .block1 .sec2 .otsec1 .img {
+  width: 592px;
+  height: 444px;
+  background-color: #CC3333;
+  border-radius: 24px;
+}
+.main .block1 .sec2 .otsec1 .elementsVacancy {
+  display: flex;
+  align-items: center;
+  padding: 24px 0;
+}
+.main .block1 .sec2 .otsec1 .elementsVacancy .boxGradeTitle {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+.main .block1 .sec2 .otsec1 .elementsVacancy .boxGradeTitle .gradeTitleIcons {
+  margin-right: 10px;
+}
+.main .block1 .sec2 .otsec1 .elementsVacancy .boxExperience {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+.main .block1 .sec2 .otsec1 .elementsVacancy .boxExperience .experienceIcons {
+  margin-right: 10px;
+}
+.main .block1 .sec2 .otsec1 .elementsVacancy .boxWorkPlaceType {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+.main .block1 .sec2 .otsec1 .elementsVacancy .boxWorkPlaceType .workPlaceTypeIcons {
+  margin-right: 10px;
+}
+.main .block1 .sec2 .otsec2 {
+  width: 100%;
+  padding-left: 72px;
+}
+.main .block1 .sec2 .otsec2 ul {
+  margin: 0;
+}
+.main .block1 .sec2 .otsec2 ul * {
+  font-size: 22px;
+}
+.main .block1 .sec2 .otsec2 ul li {
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=DescriptionVacancy.module.css.map */
